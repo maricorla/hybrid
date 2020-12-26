@@ -3,6 +3,7 @@ package test;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import page.LoginPage;
+import service.UserCreator;
 
 import java.util.Random;
 
@@ -18,7 +19,7 @@ public class RepositoryManagementTests extends CommonConditions{
         String expectedRepositoryName = generateRandomRepositoryNameWithPostfixLength(REPOSITORY_NAME_POSTFIX_LENGTH);
         String createdRepositoryName = new LoginPage(driver)
                 .openPage()
-                .login(USER_NAME, USER_PASSWORD)
+                .login(UserCreator.withCredentialsFromProperty())
                 .openPage()
                 .createNewRepository(expectedRepositoryName, REPOSITORY_DESCRIPTION)
                 .getCurrentRepositoryName();
@@ -33,7 +34,7 @@ public class RepositoryManagementTests extends CommonConditions{
         String testRepositoryName = generateRandomRepositoryNameWithPostfixLength(REPOSITORY_NAME_POSTFIX_LENGTH);
         boolean isCurrentRepositoryEmpty = new LoginPage(driver)
                 .openPage()
-                .login(USER_NAME, USER_PASSWORD)
+                .login(UserCreator.withCredentialsFromProperty())
                 .openPage()
                 .createNewRepository(testRepositoryName, REPOSITORY_DESCRIPTION)
                 .isCurrentRepositoryEmpty();

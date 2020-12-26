@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8460480e-5360-4c78-8815-b5fb8ed4f871" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/driver/DriverSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/service/UserCreator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/CommonConditions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/CommonConditions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/CommonConditions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/CommonConditions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/driver/DriverSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driver/DriverSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/RepositoryManagementTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/RepositoryManagementTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/UserAccessTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/UserAccessTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/driver/DriverSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/driver/DriverSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/page/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/page/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/RepositoryManagementTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/RepositoryManagementTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/UserAccessTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/UserAccessTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +52,7 @@
       <recent name="C:\Users\marix\IdeaProjects\hybrid_epam\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.RepositoryManagementTests">
+  <component name="RunManager" selected="TestNG.UserAccessTests">
     <configuration name="RepositoryManagementTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hybrid_frame" />
       <extension name="coverage">
@@ -100,8 +106,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserAccessTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hybrid_frame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.UserAccessTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.UserAccessTests" />
         <item itemvalue="TestNG.RepositoryManagementTests" />
         <item itemvalue="TestNG.RepositoryManagementTests.newProjectsAreEmpty" />
         <item itemvalue="TestNG.RepositoryManagementTests.oneCanCreateProject" />

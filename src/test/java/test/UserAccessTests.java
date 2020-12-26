@@ -1,20 +1,23 @@
 package test;
 
+import model.User;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import page.LoginPage;
+import service.UserCreator;
 
 public class UserAccessTests extends CommonConditions{
 
 
     @Test
     public void oneCanLoginGit() {
+        User testUser = UserCreator.withEmptyPassword();
         String loggedInUserName = new LoginPage(driver)
                 .openPage()
-                .login(USER_NAME, USER_PASSWORD)
+                .login(testUser)
                 .getLoggedInIserName();
 
-        Assert.assertEquals(loggedInUserName,USER_NAME);
+        Assert.assertEquals(loggedInUserName,testUser.getUsername());
 
     }
 }
