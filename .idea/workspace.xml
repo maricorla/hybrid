@@ -5,23 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8460480e-5360-4c78-8815-b5fb8ed4f871" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com.epam.mg/resources/testng-all.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/page/AbstractPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/page/CreateNewRepositoryPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/page/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/page/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/page/NewRepositoryPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/CommonConditions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/RepositoryManagementTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/UserAccessTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/driver/DriverSingleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hybrid_frame.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hybrid_frame.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/CommonConditions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/CommonConditions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/CommonConditions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/CommonConditions.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/github-automation-with-driver-manager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -129,5 +118,15 @@
       <updated>1608977467976</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

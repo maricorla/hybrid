@@ -1,0 +1,9 @@
+test\CommonConditions.class
+driver\DriverSingleton.class
+test\RepositoryManagementTests.class
+test\UserAccessTests.class
+page\AbstractPage.class
+page\CreateNewRepositoryPage.class
+page\MainPage.class
+page\NewRepositoryPage.class
+page\LoginPage.class
