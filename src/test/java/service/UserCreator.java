@@ -3,16 +3,17 @@ package service;
 import model.User;
 
 public class UserCreator {
-    public static final String USER_NAME = "maricorla";
-    public static final String USER_PASSWORD = "Corlatti2005377";
+    public static final String TESTDATA_USER_NAME = "testdata.user.name";
+    public static final String TESTDATA_USER_PASSWORD = "testdata.user.password";
 
     public static User withCredentialsFromProperty(){
-        return new User(USER_NAME,USER_PASSWORD);
+        return new User(TestDataReader.getTestData(TESTDATA_USER_NAME),
+                TestDataReader.getTestData(TESTDATA_USER_PASSWORD));
     }
     public static User withEmptyUsername(){
-        return new User("", USER_PASSWORD);
+        return new User("", TestDataReader.getTestData(TESTDATA_USER_PASSWORD));
     }
     public static User withEmptyPassword(){
-        return new User (USER_NAME, "");
+        return new User (TestDataReader.getTestData(TESTDATA_USER_NAME), "");
     }
 }

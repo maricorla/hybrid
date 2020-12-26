@@ -9,9 +9,10 @@ import service.UserCreator;
 public class UserAccessTests extends CommonConditions{
 
 
+
     @Test
     public void oneCanLoginGit() {
-        User testUser = UserCreator.withEmptyPassword();
+        User testUser = UserCreator.withCredentialsFromProperty();
         String loggedInUserName = new LoginPage(driver)
                 .openPage()
                 .login(testUser)

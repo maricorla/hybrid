@@ -1,9 +1,13 @@
 C:\Users\marix\IdeaProjects\hybrid_epam\src\test\java\page\LoginPage.java
 C:\Users\marix\IdeaProjects\hybrid_epam\src\test\java\test\CommonConditions.java
+C:\Users\marix\IdeaProjects\hybrid_epam\src\test\java\service\UserCreator.java
 C:\Users\marix\IdeaProjects\hybrid_epam\src\test\java\page\AbstractPage.java
 C:\Users\marix\IdeaProjects\hybrid_epam\src\test\java\page\CreateNewRepositoryPage.java
-C:\Users\marix\IdeaProjects\hybrid_epam\src\test\java\test\RepositoryManagementTests.java
-C:\Users\marix\IdeaProjects\hybrid_epam\src\test\java\test\UserAccessTests.java
 C:\Users\marix\IdeaProjects\hybrid_epam\src\test\java\driver\DriverSingleton.java
 C:\Users\marix\IdeaProjects\hybrid_epam\src\test\java\page\MainPage.java
 C:\Users\marix\IdeaProjects\hybrid_epam\src\test\java\page\NewRepositoryPage.java
+C:\Users\marix\IdeaProjects\hybrid_epam\src\test\java\model\User.java
+C:\Users\marix\IdeaProjects\hybrid_epam\src\test\java\util\StringUtils.java
+C:\Users\marix\IdeaProjects\hybrid_epam\src\test\java\service\TestDataReader.java
+C:\Users\marix\IdeaProjects\hybrid_epam\src\test\java\test\RepositoryManagementTests.java
+C:\Users\marix\IdeaProjects\hybrid_epam\src\test\java\test\UserAccessTests.java

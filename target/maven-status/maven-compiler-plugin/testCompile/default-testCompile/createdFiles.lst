@@ -1,9 +1,13 @@
+util\StringUtils.class
 test\CommonConditions.class
-driver\DriverSingleton.class
 test\RepositoryManagementTests.class
 test\UserAccessTests.class
-page\AbstractPage.class
-page\CreateNewRepositoryPage.class
-page\MainPage.class
+service\UserCreator.class
 page\NewRepositoryPage.class
 page\LoginPage.class
+service\TestDataReader.class
+driver\DriverSingleton.class
+page\AbstractPage.class
+model\User.class
+page\CreateNewRepositoryPage.class
+page\MainPage.class

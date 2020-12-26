@@ -14,6 +14,12 @@ public class CommonConditions {
     protected static final String USER_NAME = "maricorla";
     protected static final String USER_PASSWORD = "Corlatti2005377";
 
+    @BeforeSuite
+    public void setEnv(){
+        System.setProperty("environment", "qa");
+        System.out.println("faccio partire env " + System.getProperty("environment") );
+    }
+
     @BeforeMethod
     public void setup() {
         driver = DriverSingleton.getDriver();
