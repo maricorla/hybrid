@@ -1,5 +1,7 @@
 package page;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -13,7 +15,7 @@ public class NewRepositoryPage extends AbstractPage {
     private WebElement linkCurrentRepository;
 
     private final By labelEmptyRepoSetupOptionLocator = By.xpath("//h3/strong[text()='Quick setup']");
-
+    private final Logger logger = LogManager.getRootLogger();
 
 
     public String getCurrentRepositoryName()
@@ -29,6 +31,7 @@ public class NewRepositoryPage extends AbstractPage {
     {
         WebElement labelEmptyRepoSetupOption = new WebDriverWait(driver, WAIT_TIMEOUT_SECONDS)
                 .until(ExpectedConditions.presenceOfElementLocated(labelEmptyRepoSetupOptionLocator));
+        logger.info("The repository is empty");
         return labelEmptyRepoSetupOption.isDisplayed();
     }
 

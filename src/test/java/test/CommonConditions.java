@@ -6,9 +6,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.*;
+import util.TestListener;
 
 import java.util.concurrent.TimeUnit;
-
+@Listeners({TestListener.class})
 public class CommonConditions {
     protected WebDriver driver;
     protected static final String USER_NAME = "maricorla";
@@ -16,7 +17,7 @@ public class CommonConditions {
 
     @BeforeSuite
     public void setEnv(){
-        System.setProperty("environment", "qa");
+        System.setProperty("environment", "dev");
         System.out.println("faccio partire env " + System.getProperty("environment") );
     }
 
