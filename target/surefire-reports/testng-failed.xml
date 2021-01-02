@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="hybrid_frame(failed)">
+    <classes>
+      <class name="test.RepositoryManagementTests">
+        <methods>
+          <include name="newProjectsAreEmpty"/>
+          <include name="teardown"/>
+          <include name="setEnv"/>
+          <include name="setup"/>
+          <include name="oneCanCreateProject"/>
+        </methods>
+      </class> <!-- test.RepositoryManagementTests -->
+    </classes>
+  </test> <!-- hybrid_frame(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

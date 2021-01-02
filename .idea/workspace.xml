@@ -5,20 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8460480e-5360-4c78-8815-b5fb8ed4f871" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/util/TestListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/CreateNewRepositoryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/CreateNewRepositoryPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/NewRepositoryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/NewRepositoryPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test/CommonConditions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/CommonConditions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/page/CreateNewRepositoryPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/page/CreateNewRepositoryPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/page/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/page/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/page/NewRepositoryPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/page/NewRepositoryPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/service/TestDataReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/service/TestDataReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/CommonConditions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/CommonConditions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/RepositoryManagementTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/RepositoryManagementTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng-all.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng-all.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng-smoke.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng-smoke.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/logs/hybrid_frame.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/logs/hybrid_frame.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testng-all.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testng-all.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testng-smoke.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testng-smoke.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +45,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/github-automation-with-driver-manager" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/PluralSight/FromScratch/building-java-test-automation-framework-scratch (1)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -57,36 +56,56 @@
       <recent name="C:\Users\marix\IdeaProjects\hybrid_epam\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.&lt;default&gt;">
+  <component name="RunManager" selected="TestNG.RepositoryManagementTests">
     <configuration name="RepositoryManagementTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hybrid_frame" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.RepositoryManagementTests" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="C:\Users\marix\IdeaProjects\hybrid_epam\target\surefire-reports" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RepositoryManagementTests.newProjectsAreEmpty" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RepositoryManagementTests.oneCanCreateProject" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hybrid_frame" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.RepositoryManagementTests" />
-      <option name="METHOD_NAME" value="newProjectsAreEmpty" />
+      <option name="METHOD_NAME" value="oneCanCreateProject" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="C:\Users\marix\Desktop\book automation\Automation University\TestNg" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -95,15 +114,25 @@
     </configuration>
     <configuration name="UserAccessTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hybrid_frame" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.UserAccessTests" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="C:\Users\marix\IdeaProjects\hybrid_epam\target\surefire-reports" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -128,23 +157,67 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="hybrid_frame" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
+    <configuration default="true" type="TestNG">
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.RepositoryManagementTests" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="C:\Users\marix\Desktop\book automation\Automation University\TestNg" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hybrid_frame" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.RepositoryManagementTests" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="C:\Users\marix\Desktop\book automation\Automation University\TestNg" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.RepositoryManagementTests" />
+      <item itemvalue="TestNG.UserAccessTests" />
+      <item itemvalue="TestNG.UserAccessTests.oneCanLoginGit" />
+      <item itemvalue="TestNG.RepositoryManagementTests.oneCanCreateProject" />
+      <item itemvalue="TestNG.test" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.&lt;default&gt;" />
         <item itemvalue="TestNG.RepositoryManagementTests" />
-        <item itemvalue="TestNG.UserAccessTests" />
+        <item itemvalue="TestNG.test" />
+        <item itemvalue="TestNG.RepositoryManagementTests.oneCanCreateProject" />
         <item itemvalue="TestNG.UserAccessTests.oneCanLoginGit" />
-        <item itemvalue="TestNG.RepositoryManagementTests.newProjectsAreEmpty" />
+        <item itemvalue="TestNG.UserAccessTests" />
       </list>
     </recent_temporary>
   </component>
@@ -168,5 +241,9 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

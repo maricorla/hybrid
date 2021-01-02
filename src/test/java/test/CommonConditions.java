@@ -21,12 +21,12 @@ public class CommonConditions {
         System.out.println("faccio partire env " + System.getProperty("environment") );
     }
 
-    @BeforeMethod
+    @BeforeClass
     public void setup() {
         driver = DriverSingleton.getDriver();
 
     }
-    @AfterMethod
+    @AfterClass
     public void teardown() {
         DriverSingleton.closeDriver();
     }
