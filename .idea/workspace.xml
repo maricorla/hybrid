@@ -6,17 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8460480e-5360-4c78-8815-b5fb8ed4f871" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/CommonConditions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/CommonConditions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/RepositoryManagementTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/RepositoryManagementTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng-all.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng-all.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng-smoke.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng-smoke.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/logs/hybrid_frame.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/logs/hybrid_frame.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testng-all.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testng-all.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testng-smoke.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testng-smoke.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
